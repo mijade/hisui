@@ -1,0 +1,64 @@
+/* Reset some default styles for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the overall chat container */
+.chat-container {
+    background-color: #fff; /* White background */
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the chat container horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Style the header */
+.header {
+    background-color: #ff6b81; /* Pink background */
+    text-align: center;
+    padding: 10px;
+    color: #fff; /* White text color */
+    font-size: 24px;
+}
+
+/* Style the chat log */
+.chat-log {
+    height: 300px; /* Set a fixed height for the chat log with scrolling */
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+/* Style the user input container */
+.user-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Style the input field */
+#user-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #ff6b81; /* Pink underline */
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style the send button */
+#send-button {
+    background-color: #ff6b81; /* Pink button background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #e64c65; /* Darker pink on hover */
+}
