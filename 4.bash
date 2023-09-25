@@ -1,3 +1,3 @@
-git remote add origin <repository_url>
+git remote add origin <github.com/mijade/hisui>
 git branch -M main
 git push -u origin main
